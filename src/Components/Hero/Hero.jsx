@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 md:grid-cols-2">
 
         {/* Textos y descripción */}
-        <div>
+        <div className="p-8">
           <img src={Logo} alt="Logo del Juego" />
           <p>
             Magic Quest es un emocionante juego de aventuras en un mundo de fantasía donde te embarcas en una épica búsqueda mágica. Explora reinos misteriosos, domina poderosos hechizos y enfréntate a criaturas legendarias mientras desvelas secretos ocultos y te conviertes en el héroe supremo. ¡La magia está en tus manos!
